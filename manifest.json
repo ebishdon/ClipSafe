@@ -1,0 +1,59 @@
+{
+  "manifest_version": 3,
+  "name": "Clip Safe - Sensitive Data Protector",
+  "version": "1.0.0",
+  "description": "Protects sensitive information (API keys, tokens, credentials) from being pasted into AI platforms like ChatGPT, Gemini, and Claude. Automatically replaces sensitive data with safe placeholders.",
+  "author": "Ebishdon",
+  "homepage_url": "https://github.com/ebishdon/ClipSafe",
+  "icons": {
+    "16": "clipsafe.png",
+    "32": "clipsafe.png",
+    "48": "clipsafe.png",
+    "128": "clipsafe.png"
+  },
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://chat.openai.com/*",
+    "https://bard.google.com/*",
+    "https://gemini.google.com/*",
+    "https://claude.ai/*",
+    "https://claude.ai/chat/*",
+    "https://claude.ai/chat/new/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chat.openai.com/*",
+        "https://bard.google.com/*",
+        "https://gemini.google.com/*",
+        "https://claude.ai/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Clip Safe - Protect Sensitive Data"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["clipsafe.png"],
+      "matches": [
+        "https://chat.openai.com/*",
+        "https://bard.google.com/*",
+        "https://gemini.google.com/*",
+        "https://claude.ai/*"
+      ]
+    }
+  ],
+  "minimum_chrome_version": "88"
+}

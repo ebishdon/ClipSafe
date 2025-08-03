@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Clip Safe</title>
+    <style>
+      body {
+        font-family: 'Segoe UI', Arial, sans-serif;
+        background: #f7f9fa;
+        margin: 0;
+        padding: 0;
+        width: 280px;
+        min-height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .container {
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+        padding: 24px 18px;
+        margin: 18px 0;
+        width: 90%;
+        text-align: center;
+      }
+      h1 {
+        font-size: 18px;
+        color: #1a73e8;
+        margin-bottom: 10px;
+      }
+      p {
+        color: #444;
+        font-size: 14px;
+        margin: 0 0 8px 0;
+      }
+      .footer {
+        font-size: 11px;
+        color: #aaa;
+        margin-top: 10px;
+      }
+      .icon {
+        width: 48px;
+        height: 48px;
+        margin-bottom: 10px;
+      }
+      .links {
+        margin-top: 15px;
+        padding-top: 15px;
+        border-top: 1px solid #eee;
+      }
+      .link-btn {
+        display: inline-block;
+        background: #1a73e8;
+        color: white;
+        text-decoration: none;
+        padding: 8px 16px;
+        border-radius: 6px;
+        font-size: 12px;
+        margin: 5px;
+        transition: background 0.2s;
+      }
+      .link-btn:hover {
+        background: #1557b0;
+      }
+      .github-btn {
+        background: #24292e;
+      }
+      .github-btn:hover {
+        background: #1a1e22;
+      }
+      .feedback-btn {
+        background: #34a853;
+      }
+      .feedback-btn:hover {
+        background: #2d8e47;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="clipsafe.png" class="icon" alt="Clip Safe Logo" />
+      <h1>Clip Safe</h1>
+      <p>Your pastes will be checked for secrets and sanitized automatically.</p>
+      
+      <div class="links">
+        <a href="https://github.com/ebishdon/ClipSafe" target="_blank" class="link-btn github-btn">
+          📁 GitHub
+        </a>
+        <a href="https://github.com/ebishdon/ClipSafe/issues" target="_blank" class="link-btn feedback-btn">
+          💬 Feedback
+        </a>
+      </div>
+    </div>
+    <div class="footer">
+      &copy; 2024 Ebishdon
+    </div>
+  </body>
+</html>
