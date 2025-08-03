@@ -3,7 +3,7 @@
 **Last updated:** December 2024  
 **Extension:** ClipSafe - Sensitive Data Protector  
 **Developer:** Ebishdon  
-**Contact:** [Your email address]
+**Contact:** ebishdoncy@gmail.com
 
 ## Overview
 
@@ -113,5 +113,6 @@ This extension complies with:
 ClipSafe is an open-source project. You can review the source code at: https://github.com/ebishdon/clipsafe
 
 ---
+
 
 **Note:** This privacy policy applies only to the ClipSafe browser extension. It does not apply to any other services or websites you may visit while using the extension. 
