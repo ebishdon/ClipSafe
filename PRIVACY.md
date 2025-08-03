@@ -97,9 +97,7 @@ We may update this privacy policy from time to time. We will notify users of any
 
 If you have any questions about this privacy policy or our data practices, please contact us:
 
-- **Email:** [Your contact email]
-- **GitHub:** https://github.com/ebishdon/clipsafe
-- **Issues:** https://github.com/ebishdon/clipsafe/issues
+- **Email:** ebishdoncy@gmail.com
 
 ## Compliance
 
@@ -108,11 +106,7 @@ This extension complies with:
 - General Data Protection Regulation (GDPR) principles
 - California Consumer Privacy Act (CCPA) requirements
 
-## Open Source
-
-ClipSafe is an open-source project. You can review the source code at: https://github.com/ebishdon/clipsafe
-
----
 
 
 **Note:** This privacy policy applies only to the ClipSafe browser extension. It does not apply to any other services or websites you may visit while using the extension. 
+
